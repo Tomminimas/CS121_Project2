@@ -16,7 +16,7 @@ int main() {
 	secretNumber = rand() % 100 + 1;
 
 	printf("Hi, what's your name? ");
-	scanf("%s", name);
+	scanf("%19s", name);
 	printf("Nice to meet you %s. Let's play a game \n", name);
 
 	while (keepGoing) {
